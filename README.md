@@ -9,7 +9,7 @@ npm install
 ```
 Start in development mode:
 ```
-npm start:
+npm start
 ```
 # 📖About
 
