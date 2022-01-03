@@ -1,10 +1,11 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
+import Menu from '../components/Menu';
 import './App.css';
 
-const Hello = () => {
+const Screen = () => {
   return (
     <>
-      <b>Aqui você pode colocar toda a sua aplicação.</b>
+      <Menu/>
     </>
   );
 };
@@ -13,7 +14,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Hello />} />
+        <Route path="/" element={<Screen />} />
       </Routes>
     </Router>
   );
