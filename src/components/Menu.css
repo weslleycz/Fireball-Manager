@@ -1,0 +1,38 @@
+.menu {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: url("/assets/Background-Menu.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu .version {
+  color: white;
+  margin-left: 5%;
+  padding-top: 0.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: auto;
+  position: auto;
+  font-size: 20px;
+  margin-top: 1%;
+}
+
+.menu .Logo {
+  position: fixed;
+  width: 68%;
+  margin-left: 17%;
+  margin-top: 3%;
+}
+
+.menu .Audio {
+  margin-top: 1%;
+  width: 5%;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 90%;
+}
+/*# sourceMappingURL=Menu.css.map */
