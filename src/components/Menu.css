@@ -23,8 +23,25 @@
 
 .menu .Logo {
   position: fixed;
-  width: 68%;
-  margin-left: 17%;
-  margin-top: 3%;
+  width: 65%;
+  margin-left: 20%;
+}
+
+.menu .meuBotao {
+  margin-top: 1%;
+  width: 13%;
+  margin-left: 20px;
+}
+
+.menu .botoes {
+  margin-left: 25%;
+  position: fixed;
+  top: 68%;
+}
+
+.menu .botoes :hover {
+  width: 15%;
+  margin-top: 1%;
+  opacity: 0.8 0.7;
 }
 /*# sourceMappingURL=Menu.css.map */
