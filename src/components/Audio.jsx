@@ -6,7 +6,7 @@ let statusMusic=true;
 
 export default (props) => {
 const [valor,setValor] =useState(AudioON);
-function ToggleImg(){
+function playPause(){
   if (statusMusic==true) {
     statusMusic=false;
   }else{
@@ -17,7 +17,8 @@ function ToggleImg(){
 
 return (
 <>
-<img onClick={()=>ToggleImg()} href="#" className="Audio"src={valor}/>
+<img onClick={()=>playPause()} className="Audio"
+src={valor}/>
 <div className="modal">
 <iframe scrolling="no"
 frameborder="no" allow="autoplay"
@@ -27,6 +28,5 @@ false&show_comments=false&show_user=false&show_reposts=false&show_
 teaser=false&visual=false`}>
 </iframe>
 </div>
-
 </>
 );}

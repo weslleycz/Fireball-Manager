@@ -1,0 +1,67 @@
+.modal {
+  height: 100%;
+  width: 100%;
+  background: url("/assets/ModalBG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modal .modal-title {
+  margin-left: 8%;
+}
+
+.modal .modal-header {
+  margin-top: 3%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 14px;
+  width: 95%;
+  border: none;
+}
+
+.modal .modal-dialog {
+  margin-top: 18.2%;
+}
+
+.modal .modal-content {
+  background: url("/assets/Modal_content.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+.modal .modal-body {
+  margin-left: 10%;
+  border: none;
+}
+
+.modal .modal-footer {
+  border: none;
+  padding: auto;
+  margin: 4%;
+}
+
+.modal .modalButon {
+  margin-right: 1%;
+  margin-top: -6%;
+}
+
+.modal .btn {
+  margin: 2px;
+}
+
+.modal .btn-close {
+  padding: none;
+}
+
+.modal h6 {
+  margin-right: 15px;
+}
+/*# sourceMappingURL=Modal.css.map */
