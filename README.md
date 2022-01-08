@@ -20,4 +20,4 @@ Fireball Manager is a campaign manager for RPG(Role-Playing Game) of table, reco
 Fireball Manager and based on <a href="https://electron-react-boilerplate.js.org">Electron React Boilerplate</a>, A project in  <a href="https://facebook.github.io/react/">React</a>, <a href="https://github.com/reactjs/react-router">React Router</a>, <a href="https://webpack.js.org/">Webpack</a> and <a href="https://www.npmjs.com/package/react-refresh">React Fast Refresh</a>, For more information visit the <a href="https://github.com/electron-react-boilerplate/electron-react-boilerplate">Repository</a> and <a href="https://electron-react-boilerplate.js.org">Documentation</a>.
 
 # Download
-<h3><a href="https://github.com/weslleycz/weslleycz.github.io/raw/main/Download/Fireball%20Manager.exe">1.0.0</a></h3>
+<h3><a href="https://github.com/weslleycz/weslleycz.github.io/raw/main/Download/Fireball%20Manager.exe">1.0.0 alpha</a></h3>
