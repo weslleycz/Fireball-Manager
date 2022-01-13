@@ -6,7 +6,7 @@ import {
   BrowserWindow,
   MenuItemConstructorOptions,
 } from 'electron';
-import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 import './Menu.css';
 import Audio from './Audio';
 import ModalMensag from './Modal';
@@ -39,8 +39,8 @@ export default (props) => {
         <img src={Logo} />
       </div>
       <div className="botoes">
-        <a href="#"><img className="meuBotao"src={play}></img></a>
-        <a href="#"><img className="meuBotao"src={Bestiario_off}></img></a>
+      <Link to="/play"><img className="meuBotao"src={play}></img></Link>
+      <Link to="/bestiario"><img className="meuBotao"src={Bestiario_off}></img></Link>
         <a href="#"><img className="meuBotao"src={Options_off}></img></a>
         <a href="#"><img className="meuBotao" data-bs-toggle="modal"
         data-bs-target="#exampleModal" src={Exit_off}></img></a>

@@ -1,22 +1,17 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import Menu from '../components/Menu';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Menu from '../components/Menu';
+import Play from '../components/pages/play/Play';
+import Bestiario from '../components/pages/bestiario/Bestiario';
 import './App.css';
-
-const Screen = () => {
-  
-  return (
-    <>
-      <Menu/>
-    </>
-  );
-};
 
 export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Screen />} />
+        <Route path="/" element={<Menu />} />
+        <Route path="/play" element={<Play/>} />
+        <Route path="/bestiario" element={<Bestiario/>} />
       </Routes>
     </Router>
   );

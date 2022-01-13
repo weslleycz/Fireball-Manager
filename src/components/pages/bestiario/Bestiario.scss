@@ -1,0 +1,61 @@
+
+.Criaturas{
+overflow: hidden;
+scroll-behavior: auto;
+height: 500px;
+overflow: auto;
+list-style-type: none;
+background-color: rgb(255, 255, 255);
+}
+.Criaturas-desc{
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  scroll-behavior: auto;
+  list-style-type: none;
+  height: 200px;
+  width: 300px;
+}
+.Criaturas-descTex{
+  text-align: justify;
+  margin: 6%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  scroll-behavior: auto;
+  list-style-type: none;
+  height: 200px;
+}
+li{
+  list-style-type: none;
+}
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+.creature_img{
+  width: 500px;
+  height: 500px;
+}
+.contenerIamgem{
+  width: 500px;
+  height: 500px;
+  background-color: rgb(247, 247, 247);
+}
+@font-face {
+  font-family: Breathe Fire III;
+  src: url('/assets/Breathe\ Fire\ III.otf');
+}
+h1{
+  margin-left: 25%;
+  font-family: Breathe Fire III;
+  color: #c01818;
+}
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+  width: 6.5px;
+  background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c01818;
+}
