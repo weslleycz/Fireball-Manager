@@ -6,6 +6,7 @@ let statusMusic=true;
 
 export default (props) => {
 const [valor,setValor] =useState(AudioON);
+
 function playPause(){
   if (statusMusic==true) {
     statusMusic=false;
@@ -20,6 +21,7 @@ return (
 <img onClick={()=>playPause()} className="Audio"
 src={valor}/>
 <div className="modal">
+
 <iframe scrolling="no"
 frameborder="no" allow="autoplay"
 src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com
